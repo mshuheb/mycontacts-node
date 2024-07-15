@@ -7,13 +7,9 @@ const dotenv =require("dotenv").config();
 const app=express();
 
 connectDB();
-//const port = 5000;
+
 
 const port = process.env.PORT || 5000;
-
-// app.get('/api/contacts', (req,res)=>{
-//     res.send("GET ALL CONTACTS")
-// })
 
 app.use(express.json()); //This is going to provide us a parser which will help us to parse the data stream that we receive from the client 
 app.use("/api/contacts", require("./routes/contactRoutes"))
