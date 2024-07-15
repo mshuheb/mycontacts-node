@@ -1,0 +1,1 @@
+This project is a RESTful API for managing user contacts, built using Node.js, Express.js, and MongoDB. It includes user authentication and authorization, allowing users to register, log in, and manage their contacts securely. The project follows the MVC architecture and uses Mongoose for MongoDB object modeling.
